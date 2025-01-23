@@ -23,7 +23,7 @@
 1. 克隆仓库
 ```bash
 git clone https://github.com/Llugaes/GSheetDownloader.git
-cd gsheet-downloader
+cd GSheetDownloader
 ```
 
 2. 创建并激活虚拟环境
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 1. 打开下载器后,点击右上角的"认证设置"按钮
 2. 在弹出的认证设置窗口中,点击"选择认证文件"按钮
-3. 在文件选择对话框中,选择程序目录下的 `gcp-api-credentials.json` 文件
+3. 在文件选择对话框中,选择从GCP官网中导出的 `credentials.json` 文件
 4. 选择完成后会自动打开浏览器进行Google账号授权
 5. 授权完成后即可使用下载功能
 
